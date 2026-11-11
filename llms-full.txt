@@ -1,0 +1,666 @@
+# Toolpath Primer: all guides
+
+# CNC Simulator Pro: what the virtual CNC workshop does, costs and needs
+
+URL: https://cnc-simulator-pro.github.io/index.html
+Updated: 2026-11-10
+
+CNC Simulator Pro is a Windows program that runs G code on more than 40 virtual mills, lathes, cutters and 3D printers, so you can check a program before it reaches a real machine. This guide covers what it does, what the licence costs, what your PC needs and how to start the trial.
+
+## Key facts
+
+- Checked: 2026-11-10
+- Machines: 40+ in 5 categories
+- Processes: Milling, turning, laser, plasma, waterjet, 3D printing
+- CAD/CAM: SimCam, 2D and 3D
+- Windows: 10 or later, 64 bit
+- Trial: Included in the installer
+
+CNC Simulator Pro is a virtual CNC workshop for Windows 10 and later in 64 bit. It runs G code programs on more than 40 simulated machines in five categories, checks for collisions and includes SimCam, a 2D and 3D CAD/CAM system. It is sold as an annual subscription or a perpetual licence, and the installer runs as a free trial until a licence is entered.
+
+## What CNC Simulator Pro does
+
+CNC Simulator Pro is a virtual CNC workshop for Windows. You load or write a G code program, pick one of the simulated machines, and watch the tool move through a block of virtual material before any real spindle turns. The aim is to catch a wrong offset, a crash into a clamp or a missed feed before it costs a tool, a workpiece or a machine repair.
+The library holds more than 40 machines in five categories: mills from 2 to 4 axes, lathes, cutters for laser, plasma and waterjet work, and 3D printers. They range from large industrial models to small hobby routers. A virtual controller runs the code, collision checks flag contact the program should not make, and materials and effects are drawn to look close to the real process.
+The program also ships SimCam, a built in CAD/CAM system with 2D and 3D tools, so you can draw a part, generate a toolpath and simulate it in the same window. When the stock items do not match your shop, you can define your own workpieces, tools and materials. For a scored look at the whole package and its limits, read the [full review](review.html).
+
+## Who it is made for
+
+The company names three groups. Workshops use it to verify programs before they reach the machine. Schools and training centres use it to teach G code without putting students in front of a live spindle. Hobbyists use it to try macros and custom cycles safely.
+The training focus shows in the extras around the program: a quick reference for G codes, M codes and special commands, a CNC Academy with tutorials and videos, a machine catalog that lists each model with images and axis limits, and free online generators for milling and turning setup programs and for workpieces.
+It is not built to be a digital twin of a specific five axis machine with its exact kinematics; the mills in the library go to four axes. If you mainly mill on a 3 axis hobby router, a free tool may be enough, and the [comparison with CAMotics](vs-camotics.html) sets out where each one fits.
+
+## What it costs and how to try it
+
+The vendor sells two licence types: an annual subscription that includes every update released during the year, and a perpetual licence for a one time fee that does not include free updates afterwards. The amounts, the refund terms the company publishes and the ones it does not are set out on the [pricing and licence page](pricing.html).
+You do not have to pay to look. The current installer runs as a [free trial](free-trial.html) when no licence is entered. The old version 3.2 is still offered for weak 32 bit PCs, but it no longer gets updates. When you are ready, the [download page](download.html) explains what the installer contains and the setup steps, including the Windows warning that often appears after a new release.
+
+## What your PC needs
+
+The installer is Windows only. Version 4 draws far more 3D detail than earlier releases, so the graphics card matters more than raw processor speed.
+| Item | Requirement |
+|---|---|
+| Windows | 10 or later, 64 bit |
+| Runtime | Microsoft .NET Framework 4.8 or higher |
+| Graphics | A reasonably modern card for version 4 |
+| Older PCs | Legacy 3.2, 32 bit, no longer updated |
+| macOS, Linux | No installer |
+The [system requirements page](system-requirements.html) covers the graphics and plugin errors the support site documents, and what to do when SmartScreen blocks the installer.
+
+## Pages in this guide
+
+- Review: Features, limits and a score based on what the vendor publishes.
+- Pricing: Annual subscription against perpetual licence, refunds and activation.
+- Free trial: What the trial includes, the end of the free licences and legacy 3.2.
+- System requirements: Windows, .NET, graphics and the common start up errors.
+- Versus CAMotics: The paid trainer against a free open source simulator.
+- Alternatives: Six other simulators and verifiers, from free viewers to industrial suites.
+- Download: The official installer, setup steps and the SmartScreen prompt.
+
+> Run the program on a virtual machine first.
+Cut real material once the path looks right.
+
+
+## FAQ
+
+**What is CNC Simulator Pro?**
+
+It is a Windows program that simulates CNC machines so you can run and check G code programs on screen. It includes more than 40 machines in five categories, a virtual controller, collision checks and the SimCam CAD/CAM system.
+
+**Is CNC Simulator Pro free?**
+
+Not as a full product. The installer includes a free trial, and the company sells an annual subscription and a perpetual licence. The old version 3.2 can still be downloaded but no longer receives updates.
+
+**Does it run on a Mac?**
+
+No. The download page lists Windows 10 or later in 64 bit with Microsoft .NET Framework 4.8 or higher. Mac users would need a Windows installation or a different simulator.
+
+**Which machines can it simulate?**
+
+Mills with 2 to 4 axes, lathes, laser, plasma and waterjet cutters, and 3D printers, from industrial machines down to hobby CNCs. The vendor's machine catalog lists each model with images and axis limits.
+
+**Is it suitable for students?**
+
+Yes, training is one of the main uses the vendor names. The program comes with tutorials and example programs, and the support site adds a CNC Academy, a codes quick reference and online setup generators.
+
+## Sources
+
+- [CNC Simulator Pro home page: machines, processes and features](https://cncsimulator.com/en/)
+- [CNC Simulator Pro support page: online help, codes reference, online tools](https://cncsimulator.com/en/support.html)
+
+
+---
+
+# CNC Simulator Pro review: a broad G code trainer with a four axis ceiling
+
+URL: https://cnc-simulator-pro.github.io/review.html
+Updated: 2026-11-10
+
+This CNC Simulator Pro review weighs what the program offers against its limits, using only the vendor's published features and terms: a large machine library and a strong training kit, set against Windows only support and mills that stop at four axes.
+
+## Key facts
+
+- Score: 7.4 / 10
+- Machines: 40+ in 5 categories
+- Mill axes: 2 to 4
+- CAD/CAM: SimCam, 2D and 3D
+- Platform: Windows 10+, 64 bit
+- Checked: 2026-11-10
+
+CNC Simulator Pro scores 7.4 out of 10 in this review. It suits schools, trainees and small shops that want to run G code on many machine types, with collision checks and built in CAD/CAM in one program. It runs only on 64 bit Windows, its mills stop at four axes, and the perpetual licence does not include future updates.
+
+## Verdict (7.4/10)
+
+For teaching G code and checking programs on mills, lathes, cutters and printers, few tools cover as many machine types in one window, and the free training material around the program adds real value. Production shops that need an exact model of one five axis machine should look at industrial verifiers instead.
+
+## What the simulator covers
+
+This CNC Simulator Pro review starts with scope, because breadth is the program's main selling point. It simulates mills from 2 to 4 axes, lathes, laser, plasma and waterjet cutters, and 3D printers. The vendor counts more than 40 machines in five categories, from large industrial models to small hobby CNCs, and a separate online catalog lists each machine with pictures and axis limits.
+You run a program on a virtual controller and watch material come off a virtual workpiece. Collision checks warn when the tool or holder touches something it should not. The graphics aim for realism in materials and effects, which helps students connect what they see on screen with what happens at a real machine.
+Everything here comes from the vendor's own pages; this site has not run timed tests or benchmarks. To judge speed and feel on your hardware, the [free trial](free-trial.html) is the honest test.
+
+## Main features
+
+- Virtual controller: Runs G code, M code and special commands, listed in the vendor's codes quick reference.
+- Machine library: Over 40 machines in five categories, each with defined axis limits.
+- SimCam: Built in CAD/CAM with 2D and 3D tools, so drawing, toolpath and simulation share one window.
+- Collision checks: Flags tool contact before a program is sent to a real machine.
+- Custom items: Create your own workpieces, tools and materials when the stock ones do not fit.
+- Training material: Tutorials and example programs in the box, plus CNC Academy videos online.
+
+## Training material and support
+
+The support site is better stocked than many small vendors manage. It has an online help manual for version 4 and a separate one for version 3.2, the codes quick reference, and five free web tools: setup program generators for milling and turning, workpiece builders for lathe and mill, and a workpiece viewer. CNC Academy adds tutorials and video lessons.
+Help beyond the manual runs through a support portal with FAQs, known issues and a ticket form. The vendor does not publish response times, so plan for the help desk being a small team rather than a round the clock service.
+
+## Limits worth knowing
+
+The constraints are the ones the vendor states itself, and they decide whether the program fits you.
+- Windows 10 or later in 64 bit only; there is no macOS or Linux installer, which the [system requirements page](system-requirements.html) covers in detail.
+- Mills go to four axes; five axis work is outside the library.
+- Version 4 needs a reasonably modern graphics card; weak PCs are pointed to legacy 3.2, which is no longer updated.
+- The perpetual licence does not include free updates, so the annual plan is the only way to stay current without paying again.
+- New releases can trigger a Windows SmartScreen warning until the build gains reputation.
+
+## Who should pick something else
+
+If you only need to preview 3 axis router programs, a free open source tool may do the job; the [comparison with CAMotics](vs-camotics.html) shows what you give up. If you run a production shop with expensive five axis machines, industrial verifiers built around exact machine models are a better match, and the [list of alternatives](alternatives.html) names several. For everyone in between, the [pricing page](pricing.html) explains which licence makes sense.
+
+## Pros and cons
+
+Pros:
+- Mills, lathes, cutters and 3D printers in one program
+- SimCam CAD/CAM included, no separate CAM needed for simple parts
+- Collision checks before code reaches a machine
+- Generous free extras: codes reference, CNC Academy, online generators
+- Custom workpieces, tools and materials
+Cons:
+- Windows only
+- Maximum of four axes on mills
+- Perpetual licence without free updates
+- Graphics demands rule out old PCs for version 4
+- No school pricing published on the pages checked
+
+
+## FAQ
+
+**Is CNC Simulator Pro good for beginners?**
+
+Yes, beginners are a main audience. It ships with tutorials and example programs, and the vendor's site adds a codes quick reference and video lessons. Mistakes cost nothing because the machine is virtual.
+
+**Can it simulate five axis machining?**
+
+No. The mills in its library run from 2 to 4 axes. For five axis verification, industrial tools such as VERICUT or NCSIMUL are the usual choice.
+
+**Does the simulator include CAM?**
+
+Yes. SimCam is built in and offers 2D and 3D CAD/CAM tools. You can draw a part, create a toolpath and simulate it without a separate CAM program.
+
+**Has this site benchmarked the program?**
+
+No. The review is based on the vendor's published features, requirements and licence terms. The trial is the best way to check speed on your own hardware.
+
+**What is the main drawback?**
+
+For most buyers it is the platform: the program needs 64 bit Windows 10 or later and a fairly modern graphics card. Buyers of the perpetual licence should also note that updates are not included for free.
+
+## Sources
+
+- [CNC Simulator Pro home page: features, machine categories and processes](https://cncsimulator.com/en/)
+- [CNC Simulator Pro support page: online help, codes reference, CNC Academy, online tools](https://cncsimulator.com/en/support.html)
+
+
+---
+
+# CNC Simulator Pro pricing: annual subscription or perpetual licence
+
+URL: https://cnc-simulator-pro.github.io/pricing.html
+Updated: 2026-11-10
+
+CNC Simulator Pro pricing comes down to two licence types. The vendor's help desk lists USD 99 a year for the subscription with updates and USD 535 once for a perpetual licence without free updates. Here is how they compare and what to check before you pay.
+
+## Key facts
+
+- Annual: USD 99 a year, updates included
+- Perpetual: USD 535 once, no free updates
+- Trial: Free, in the installer
+- Refund: 30 days on yearly licences, per order page
+- School pricing: Not published
+- Checked: 2026-11-10
+
+The vendor's help desk lists CNC Simulator Pro at USD 99 a year for the annual subscription, which includes all updates, and USD 535 once for a perpetual licence that does not include free updates. Some versions of the order page have shown different perpetual terms, so confirm the price on the order page before paying. A free trial comes with the installer.
+
+## CNC Simulator Pro pricing at a glance
+
+CNC Simulator Pro pricing has two paid options and a trial. The figures below are the ones the company's help desk publishes; the order page is the final word on what you pay, because the vendor's own pages have not always agreed on the perpetual offer.
+| Option | Price | Updates | Notes |
+|---|---|---|---|
+| Free trial | USD 0 | Current version | Runs when no licence is entered |
+| Annual subscription | USD 99 a year | All updates and new features during the year | Order page states a 30 day money back guarantee on yearly licences |
+| Perpetual licence | USD 535 once | Not included for free | Order page has also shown other perpetual terms; check before paying |
+Prices are in US dollars. The vendor does not state on the pages checked whether local tax is added at checkout.
+
+## Which licence makes sense
+
+The perpetual fee equals a little over five years of the subscription. That sounds like a clear win for buying once, but the perpetual licence freezes you on the version you bought unless you pay for updates later. New machines, fixes for new Windows builds and graphics changes all arrive through updates.
+The annual plan suits schools that run a course each year, anyone who wants the newest machines and fixes, and buyers who are not sure they will still use the program in two years. The perpetual licence suits a shop that wants one stable version on an offline workstation and does not care about new features.
+If you are not sure yet, run the [free trial](free-trial.html) on the PC you will actually use. If you need something cheaper or free, the [alternatives page](alternatives.html) lists options.
+
+## Refunds and cancelling
+
+The order page mentions a 30 day money back guarantee on yearly licences. The pages checked do not describe a refund for the perpetual licence, so treat that purchase as final unless the vendor confirms otherwise in writing before you pay.
+The pages checked also do not say whether the annual subscription renews automatically or how to cancel a renewal. Ask through the support portal before buying, and keep the order confirmation email, since it holds your licence details.
+
+## What happens after you pay
+
+The vendor's help desk describes delivery by email after the order. You then open the program, choose Help, then Activate License, and paste the code into the License string field. Your account page on the vendor's site keeps the licence on record.
+Install and test before buying: the [download page](download.html) has the official installer and setup steps, and the trial uses the same installer, so nothing has to be reinstalled when you activate.
+
+## Schools and multiple seats
+
+Training centres are one of the main audiences, but the pages checked on 10 November 2026 do not list classroom, site or volume prices. Ask through the support portal for a quote before ordering single licences for a whole lab. The [review](review.html) covers the free training material that comes with every licence.
+
+
+## FAQ
+
+**How much does CNC Simulator Pro cost?**
+
+The vendor's help desk lists USD 99 a year for the annual subscription and USD 535 once for the perpetual licence. Check the official order page before buying, because the perpetual terms shown there have differed from the help desk.
+
+**Does the perpetual licence include updates?**
+
+Not for free, according to the help desk. You keep the version you bought; newer versions mean paying again. The annual subscription includes all updates during the year.
+
+**Is there a refund?**
+
+The order page mentions a 30 day money back guarantee on yearly licences. No refund terms for the perpetual licence were found on the pages checked, so ask the vendor first.
+
+**Is there a student or school discount?**
+
+None is published on the pages checked. Schools should contact the vendor through the support portal for multi seat prices before ordering.
+
+**How do I enter my licence?**
+
+Open the program, choose Help, then Activate License, and paste the code from your order email into the License string field. The trial installation stays in place, so no reinstall is needed.
+
+## Sources
+
+- [CNC Simulator Pro support page: support portal and ticketing](https://cncsimulator.com/en/support.html)
+- [CNC Simulator Pro home page: product overview and order link](https://cncsimulator.com/en/)
+
+
+---
+
+# CNC Simulator Pro free trial: what you get and what happened to the free version
+
+URL: https://cnc-simulator-pro.github.io/free-trial.html
+Updated: 2026-11-10
+
+Searching for a CNC Simulator Pro free download usually means one of two things: the trial of the current version, or the old free licence. The trial is still there; the free licences ended in January 2026, and legacy version 3.2 remains only for older PCs.
+
+## Key facts
+
+- Trial: Included in the installer
+- Length: 30 days, per help desk
+- Licence key: Not needed for the trial
+- Free licences: Ended 1 Jan 2026, per help desk
+- Legacy: 3.2, 32 bit, no updates
+- Checked: 2026-11-10
+
+CNC Simulator Pro is not free as a full product, but there is a free trial. The installer from the official download page runs as a trial when no licence is entered, which the vendor's help desk describes as a full 30 day trial. The free licences of earlier years ended on 1 January 2026, and legacy version 3.2 is offered for older PCs without further updates.
+
+## How the CNC Simulator Pro free trial works
+
+The CNC Simulator Pro free trial is not a separate download. The download page states that a trial is included if you do not have a licence, so you install the same program that paying users get and simply skip activation. The help desk describes it as a full trial lasting 30 days.
+Because the trial and the paid program are one installer, nothing has to be reinstalled later. When you buy, you enter the licence code in the program and keep your settings, programs and custom items. The [pricing page](pricing.html) explains the two licence types and what each includes.
+
+## What happened to the free version
+
+For years many users ran the simulator on a free licence, and plenty of old forum posts still say it is free. The vendor's help desk states that free licences were discontinued after 1 January 2026. Instructions you find for reactivating a free licence refer to that older arrangement.
+The trial remains the official way to use the current version without paying. Downloads offered as a cracked or unlocked copy are not the vendor's build, are not signed by the publisher and carry real risk on a workshop or school PC. Use only the official installer.
+
+## Legacy version 3.2
+
+The download page also offers version 3.2 as a 32 bit installer. The vendor describes it as lighter and better suited to older computers with a 32 bit processor, a weak graphics chip or little memory. It is no longer updated, and the online help has a separate manual for it.
+Choose 3.2 only if version 4 will not run on your hardware. Check the [system requirements](system-requirements.html) first; a driver update or a better graphics card often solves the problem without falling back to an unmaintained release.
+
+## What to check during the trial
+
+Thirty days is enough to answer the questions that matter before paying. Use them on the PC and the programs you will really use.
+1. Load a program you already know works on a real machine and confirm the toolpath looks the same.
+2. Pick a machine from the library that is close to yours and check its axis limits against the vendor's machine catalog.
+3. Try SimCam on a simple part to see whether the built in CAD/CAM covers your needs.
+4. Watch the frame rate on a long program; version 4 leans on the graphics card.
+5. Go through one tutorial or example to judge the teaching material if you plan to use it in class.
+If the program passes these checks, the [review](review.html) covers the remaining limits, such as the four axis maximum on mills.
+
+## When the trial ends
+
+After the trial you need a licence to keep using the current version. The help desk lists an annual subscription with updates and a perpetual licence without free updates. If neither fits, a free open source simulator may cover simple 3 axis work, though it will not match the machine range or the training material.
+
+
+## FAQ
+
+**Is CNC Simulator Pro free to download?**
+
+The installer is free to download from the official site and runs as a trial without a licence. Continued use after the trial needs a paid licence. The free licences of earlier years ended on 1 January 2026.
+
+**How long is the trial?**
+
+The vendor's help desk describes a full 30 day trial. The download page itself only says that a free trial is included if you do not have a licence.
+
+**Do I need to reinstall after buying?**
+
+No. The trial and the paid program use the same installer. You enter the licence code in the program and continue with your files.
+
+**Is version 3.2 still free?**
+
+Version 3.2 is still offered on the download page as a 32 bit legacy installer, but it is no longer updated. The free licences that once came with it were discontinued after 1 January 2026, according to the help desk.
+
+**Is a cracked copy a safe way to try it?**
+
+No. Only the official installer is signed by the publisher Zyntaxis. Modified copies can carry malware and break the licence agreement, which matters on school and workshop PCs.
+
+## Sources
+
+- [CNC Simulator Pro support page: online help for version 4 and version 3.2](https://cncsimulator.com/en/support.html)
+
+
+---
+
+# Download CNC Simulator Pro: official installer, trial and setup steps
+
+URL: https://cnc-simulator-pro.github.io/download.html
+Updated: 2026-11-10
+
+Download CNC Simulator Pro from the official site only. The installer is for Windows 10 or later in 64 bit, needs .NET Framework 4.8 or higher and starts as a free trial. Here is what you get, how to install it and what to do about the SmartScreen prompt.
+
+## Key facts
+
+- Current line: Version 4
+- Windows: 10 or later, 64 bit
+- .NET: Framework 4.8 or higher
+- Installer size: Not published
+- Signed by: Zyntaxis
+- Trial: Included
+- Checked: 2026-11-10
+
+Download CNC Simulator Pro from the official cncsimulator.com download page. The installer runs on Windows 10 or later in 64 bit, needs Microsoft .NET Framework 4.8 or higher, and works as a free trial until you enter a licence. It is signed by the publisher Zyntaxis, which Windows shows in its security prompt.
+
+## What you get when you download CNC Simulator Pro
+
+When you download CNC Simulator Pro from the official page you get the version 4 installer: the full program with the machine library, the virtual controller, SimCam CAD/CAM, tutorials and examples. Without a licence it runs as a trial; with one it becomes the paid edition, with no second download.
+The page does not print a build number or the file size, so neither is given here. The same page offers the order link, the licence agreement you accept by installing, and two troubleshooting articles for plugin loading and graphics errors.
+
+## Before you install
+
+Check two things first. Windows must be version 10 or later in 64 bit, and Microsoft .NET Framework 4.8 or higher must be present; current Windows 10 and 11 builds normally have it. Version 4 also leans on the graphics card, so a very old PC may struggle. The [system requirements page](system-requirements.html) has the full list and the fixes for common errors.
+
+## Install steps
+
+1. Check Windows and .NET: Confirm Windows 10 or 11 in 64 bit and .NET Framework 4.8 or higher.
+2. Download the installer: Use the Download now button on the official download page, not a mirror site.
+3. Run it and check the publisher: If the blue SmartScreen box appears, confirm the publisher is Zyntaxis, then choose More info and Run anyway.
+4. Start in trial mode: Open the program without a licence to use the trial.
+5. Activate after buying: Choose Help, then Activate License, and paste your code into the License string field.
+
+## The SmartScreen warning
+
+Right after each release Windows or Edge may call the installer not commonly downloaded. The vendor explains that every new build starts with no reputation and the warning fades as more people install it. The file is signed in house, so the prompt should name Zyntaxis as publisher. If it names anyone else, stop and download again from the official page.
+
+## Older PCs and the trial
+
+Below the main button the page offers legacy version 3.2 as a 32 bit installer for weak computers. It is lighter but no longer updated. The [free trial page](free-trial.html) explains how the trial works and what happened to the old free licences, and the [pricing page](pricing.html) covers the licence options when you are ready to buy.
+
+
+## FAQ
+
+**Where is the safe place to download CNC Simulator Pro?**
+
+The official download page on cncsimulator.com. Its installers are signed by Zyntaxis, and Windows shows that name in the security prompt.
+
+**Why does Windows warn me about the installer?**
+
+New builds start without SmartScreen reputation, so Windows may call the file not commonly downloaded. If the publisher shown is Zyntaxis, choose More info and Run anyway.
+
+**Is a licence needed to install?**
+
+No. The program runs as a trial without a licence. You activate it later through Help, then Activate License.
+
+**How big is the installer?**
+
+The download page does not state the file size or the build number. Plan for a typical 3D program download and enough free disk space.
+
+**Can I install it on a 32 bit PC?**
+
+Not version 4. The page offers legacy version 3.2 as a 32 bit installer, but that version is no longer updated.
+
+## Sources
+
+- [CNC Simulator Pro support page: support portal and troubleshooting](https://cncsimulator.com/en/support.html)
+
+
+---
+
+# CNC Simulator Pro system requirements and the common start up errors
+
+URL: https://cnc-simulator-pro.github.io/system-requirements.html
+Updated: 2026-11-10
+
+The CNC Simulator Pro system requirements are short: 64 bit Windows 10 or later, .NET Framework 4.8 or higher and a reasonably modern graphics card. This page explains each item, the fallback for old PCs and the errors the support site documents.
+
+## Key facts
+
+- Windows: 10 or later, 64 bit
+- .NET: Framework 4.8 or higher
+- Graphics: Modern card recommended
+- Internet: Live connection listed
+- macOS, Linux: Not supported
+- Older PCs: Legacy 3.2, 32 bit
+- Checked: 2026-11-10
+
+CNC Simulator Pro version 4 needs Windows 10 or later in 64 bit and Microsoft .NET Framework 4.8 or higher. The vendor recommends a modern processor and graphics card because version 4 draws detailed 3D scenes, and it lists a live internet connection as required. Older or 32 bit PCs can run legacy version 3.2, which is no longer updated.
+
+## CNC Simulator Pro system requirements
+
+The CNC Simulator Pro system requirements published on the download page cover only the operating system and the .NET runtime. The help desk and the vendor's about page add guidance on graphics and the internet connection. No minimum memory or processor model is stated for version 4.
+| Item | Version 4 | Legacy 3.2 |
+|---|---|---|
+| Windows | 10 or later, 64 bit | Older Windows, 32 bit build |
+| Runtime | .NET Framework 4.8 or higher | See the 3.2 online help |
+| Graphics | Reasonably modern card | Works with limited graphics |
+| Memory | Not stated | Suits low memory PCs |
+| Internet | Live connection listed | Not stated |
+| Updates | Yes | No longer updated |
+
+## Why the graphics card matters most
+
+Version 4 renders materials, chips and effects in 3D, and the help desk says it needs a fairly modern computer with a decent graphics card to work well. A strong processor with an old integrated graphics chip is the setup most likely to disappoint.
+On laptops with two graphics chips, make sure the program uses the dedicated one. The [free trial](free-trial.html) is the safe way to find out before paying, since it is the same program as the licensed edition.
+
+## If your PC is too old
+
+The vendor keeps legacy version 3.2 on the download page for computers with a 32 bit processor, limited graphics or little memory. It runs better on such hardware but receives no updates, and features added in version 4 are missing. Use it as a stopgap for a classroom with old machines, not as a long term plan.
+There is no macOS or Linux installer. If your team works on Macs, the [comparison with CAMotics](vs-camotics.html) covers a free simulator that runs on all three systems.
+
+## Common errors and where the fixes are
+
+The download page links two troubleshooting articles from the vendor's support portal. Both are worth reading before opening a ticket.
+- Graphics errors in version 4.0 and later: usually linked to the graphics driver or an older card. Start by installing the current driver from the card maker, then follow the vendor's article.
+- Plugin loading error: the vendor has a dedicated article on fixing it; a missing or outdated .NET Framework is a common cause on Windows to check first.
+- SmartScreen blocks the installer: normal for a new build. Check that the publisher is Zyntaxis, then choose More info and Run anyway.
+- Still stuck: the support portal lists known issues and lets you open a ticket.
+
+## Before you buy
+
+Install the trial on the exact PC that will run the simulator, load one long program and watch how smoothly it runs. If it works, the [download page](download.html) and the order link are all you need. The [review](review.html) covers what the program does once it is running.
+
+
+## FAQ
+
+**Does CNC Simulator Pro run on Windows 11?**
+
+Yes. The download page lists Windows 10 or higher in 64 bit, which includes Windows 11. Microsoft .NET Framework 4.8 or higher is also needed.
+
+**Can it run on a Mac or Linux?**
+
+There is no macOS or Linux installer. You would need a Windows installation on that machine or a cross platform simulator instead.
+
+**How much RAM does it need?**
+
+The vendor does not state a memory minimum for version 4. It says a fairly modern computer with a decent graphics card is needed, and points low memory PCs to legacy version 3.2.
+
+**Does it need an internet connection?**
+
+The vendor's about page lists a live internet connection as required. Plan for this on workshop PCs that are normally kept offline.
+
+**What causes graphics errors in version 4?**
+
+Version 4 is more demanding on the graphics card, and outdated drivers or old cards are the usual suspects. The vendor's support portal has an article on graphics errors in version 4.0 and later.
+
+## Sources
+
+- [CNC Simulator Pro support page: system requirements and known issues in the support portal](https://cncsimulator.com/en/support.html)
+- [CNC Simulator Pro home page: platform statement](https://cncsimulator.com/en/)
+
+
+---
+
+# CNC Simulator Pro vs CAMotics: paid trainer or free open source simulator
+
+URL: https://cnc-simulator-pro.github.io/vs-camotics.html
+Updated: 2026-11-10
+
+CNC Simulator Pro vs CAMotics is the comparison most hobby and school users face: a paid Windows program with many machine types and built in CAD/CAM, or a free open source simulator for 3 axis milling that runs on every desktop system.
+
+## Key facts
+
+- Price: Paid licence vs free
+- Platforms: Windows only vs Windows, macOS, Linux
+- Machines: Mills, lathes, cutters, printers vs 3 axis milling
+- CAD/CAM: SimCam built in vs none
+- Source code: Closed vs open source
+- Checked: 2026-11-10
+
+Pick CNC Simulator Pro if you need many machine types, including lathes, cutters and 3D printers, plus a virtual controller, built in CAD/CAM and training material. Pick CAMotics if you need a free, open source simulator for 3 axis milling that also runs on macOS and Linux. The commercial program costs a yearly or one time fee; CAMotics costs nothing.
+
+## CNC Simulator Pro vs CAMotics at a glance
+
+In CNC Simulator Pro vs CAMotics, the difference is scope against price. One is a broad training tool with a licence fee; the other is a focused, free milling simulator maintained as an open source project.
+|  | CNC Simulator Pro | CAMotics |
+|---|---|---|
+| Licence | Annual subscription or perpetual | Free, open source |
+| Platforms | Windows 10+, 64 bit | Windows, macOS, Linux |
+| Machine types | Mills 2 to 4 axes, lathes, laser, plasma, waterjet, 3D printers | 3 axis milling and routing |
+| CAD/CAM | SimCam, 2D and 3D | None; bring G code from your CAM |
+| Collision checks | Yes | Material removal view; check its docs for details |
+| Training material | Tutorials, examples, CNC Academy | Project documentation and community |
+
+## Machines and processes
+
+The commercial simulator covers five machine categories with more than 40 models, and a catalog lists each one with axis limits. That matters in a school where students move from a mill to a lathe to a plasma table in one term, all inside one program.
+CAMotics concentrates on 3 axis milling. For a hobby router or a small mill that is often all you need: it shows the toolpath and the material left after cutting so you can spot gouges before running the job.
+
+## Writing and checking code
+
+With SimCam you can draw a part, create a toolpath and simulate it without leaving the program, and a virtual controller runs the code as a machine would. CAMotics expects G code produced elsewhere, typically from the CAM tool you already use. If you already have CAM, that gap matters less; if you are learning from scratch, the built in CAD/CAM saves a second program. The [full review](review.html) covers the rest of the feature set.
+
+## Cost and platforms
+
+CAMotics costs nothing on any system. The commercial simulator needs 64 bit Windows and a licence: the help desk lists an annual subscription with updates and a perpetual licence without free updates, both detailed on the [pricing page](pricing.html). Mac and Linux users can only run it inside a Windows installation.
+
+## Which one to choose
+
+Both can be tried for free, so the cheapest test is to run the same program in each and compare what you see.
+- School or training centre teaching several machine types: the commercial simulator.
+- Hobbyist with a 3 axis router on a Mac or Linux PC: CAMotics.
+- Learner without a CAM program: the commercial simulator, for SimCam.
+- Shop that only wants a quick free check of router code: CAMotics first.
+- Production shop with five axis machines: neither; see the [other alternatives](alternatives.html).
+
+
+## FAQ
+
+**Is CAMotics a good free alternative to CNC Simulator Pro?**
+
+For 3 axis milling, yes. It is free, open source and runs on Windows, macOS and Linux. It does not cover lathes, cutters or 3D printers and has no built in CAD/CAM.
+
+**Which is better for teaching?**
+
+The commercial simulator, mainly because of its range of machine types, its virtual controller and the tutorials, examples and CNC Academy material around it. CAMotics has documentation but no structured course.
+
+**Can CAMotics simulate a lathe?**
+
+It is built around 3 axis milling and routing. For turning, the commercial simulator includes lathes in its library.
+
+**Does either run on a Mac?**
+
+CAMotics has a macOS version. The commercial simulator is Windows only and needs 64 bit Windows 10 or later.
+
+**Can I try both before deciding?**
+
+Yes. CAMotics is free, and the commercial program's installer runs as a trial without a licence. Running one known program in each is the quickest comparison.
+
+## Sources
+
+- [CNC Simulator Pro home page: machines, processes, SimCam](https://cncsimulator.com/en/)
+- [CNC Simulator Pro support page: CNC Academy and machine catalog](https://cncsimulator.com/en/support.html)
+
+
+---
+
+# CNC Simulator Pro alternatives: six G code simulators and verifiers
+
+URL: https://cnc-simulator-pro.github.io/alternatives.html
+Updated: 2026-11-10
+
+The best CNC Simulator Pro alternatives depend on why you are looking: a free tool for a hobby router, a code editor with a backplot for a job shop, or an industrial verifier for five axis production. Here are six options grouped by that need.
+
+## Key facts
+
+- Free options: CAMotics, NC Viewer
+- Editors with simulation: CIMCO Edit, G-Wizard Editor
+- Industrial verifiers: VERICUT, NCSIMUL
+- Cross platform: CAMotics, NC Viewer in a browser
+- Prices compared: Check each vendor's site
+- Checked: 2026-11-10
+
+The main CNC Simulator Pro alternatives are CAMotics and NC Viewer for free 3 axis checks, CIMCO Edit and G-Wizard Editor for editing code with a simulated backplot, and VERICUT or NCSIMUL for industrial verification of complex machines. None of them combines lathes, cutters, 3D printers, built in CAD/CAM and training material the way the reviewed program does, so the right pick depends on your machines and budget.
+
+## When to look at CNC Simulator Pro alternatives
+
+Most people look at CNC Simulator Pro alternatives for one of four reasons: they want something free, they use a Mac or Linux, they need five axis or exact machine models, or they mainly edit code and only want a quick backplot. The program itself is strong for training on many machine types; the [review](review.html) explains where it stops.
+Prices for the paid tools below change and several are quoted on request, so none are listed here. Check each vendor's own site.
+
+## Free options for hobby and learning
+
+CAMotics is a free, open source simulator for 3 axis milling that runs on Windows, macOS and Linux. It shows the material left after cutting, which is enough to catch most router mistakes. The [head to head comparison](vs-camotics.html) covers it in detail.
+NC Viewer runs in a web browser, so there is nothing to install. Paste or open G code and it plots the toolpath. It is a quick preview, not a full machine simulation with a virtual controller or collision checks.
+
+## Code editors with simulation
+
+CIMCO Edit is a long standing CNC program editor for Windows, used in many job shops, with backplot and simulation features. G-Wizard Editor from CNCCookbook combines a G code editor with a simulator and hints about what each line does. Both suit people who spend most of their time editing programs rather than learning on many machine types.
+
+## Industrial verification
+
+VERICUT from CGTech and NCSIMUL from Hexagon model specific machines, controllers and fixtures to verify programs for production, including complex multi axis work. They sit in a different price and effort class from a training simulator and make sense when a crash on a real machine would cost far more than the software.
+
+## Side by side
+
+| Tool | Best for | Platform | Cost model |
+|---|---|---|---|
+| CNC Simulator Pro | Training on many machine types | Windows | Annual or perpetual |
+| CAMotics | Free 3 axis checks | Windows, macOS, Linux | Free |
+| NC Viewer | Quick toolpath preview | Browser | Free |
+| CIMCO Edit | Shop floor code editing | Windows | Commercial |
+| G-Wizard Editor | Editing with line hints | See vendor | Commercial |
+| VERICUT | Production verification | See vendor | Commercial, quoted |
+| NCSIMUL | Production verification | See vendor | Commercial, quoted |
+If your work spans mills, lathes and cutters in a classroom, the reviewed program still covers the most ground per licence. The [pricing page](pricing.html) shows what that licence costs.
+
+
+## FAQ
+
+**What is the best free alternative to CNC Simulator Pro?**
+
+For 3 axis milling, CAMotics is the most complete free option and runs on Windows, macOS and Linux. NC Viewer is quicker for a simple toolpath preview in a browser.
+
+**Is there an alternative that runs on a Mac?**
+
+CAMotics has a macOS version, and NC Viewer runs in any modern browser. The reviewed program needs 64 bit Windows.
+
+**What do production shops use instead?**
+
+Industrial verifiers such as VERICUT and NCSIMUL, which model specific machines, controllers and fixtures. They cost far more and are aimed at expensive multi axis machines.
+
+**Are code editors a replacement for a simulator?**
+
+Partly. CIMCO Edit and G-Wizard Editor show a backplot and simulation while you edit. They are not built around a library of virtual machines or a classroom course.
+
+**Why are prices not listed here?**
+
+Several of these vendors quote prices on request or change them often. Check each official site before comparing costs.
+
+## Sources
+
+- [CNC Simulator Pro home page: feature scope for comparison](https://cncsimulator.com/en/)

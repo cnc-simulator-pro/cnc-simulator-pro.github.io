@@ -1,0 +1,9 @@
+{
+  "name": "toolpath-primer-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML/CSS site, nothing to build",
+  "scripts": {
+    "build": "node -e \"console.log('static site: nothing to build')\""
+  }
+}

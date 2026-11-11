@@ -1,0 +1,21 @@
+# Toolpath Primer
+
+> A plain guide to CNC Simulator Pro: what it simulates, what the licence costs, what your PC needs and how to start the trial.
+
+Independent guides to CNC Simulator Pro by Toolpath Primer. Facts come from the vendor's pages on the date shown on each page.
+
+## Decide
+- [CNC Simulator Pro review: a broad G code trainer with a four axis ceiling](https://cnc-simulator-pro.github.io/review.html): CNC Simulator Pro review based on the vendor's documentation: 40+ machines, SimCam CAD/CAM, collision checks, Windows only, annual or perpetual licence.
+- [CNC Simulator Pro pricing: annual subscription or perpetual licence](https://cnc-simulator-pro.github.io/pricing.html): CNC Simulator Pro price per the vendor's help desk: USD 99 a year with updates or USD 535 once without free updates. Refunds, trial, activation.
+- [CNC Simulator Pro free trial: what you get and what happened to the free version](https://cnc-simulator-pro.github.io/free-trial.html): Is CNC Simulator Pro free? The installer runs as a trial without a licence, free licences ended in January 2026, and legacy 3.2 stays for old PCs.
+
+## Do it
+- [Download CNC Simulator Pro: official installer, trial and setup steps](https://cnc-simulator-pro.github.io/download.html): Download CNC Simulator Pro safely: official installer for Windows 10+ 64 bit, .NET 4.8, trial included, SmartScreen prompt and legacy 3.2 explained.
+- [CNC Simulator Pro system requirements and the common start up errors](https://cnc-simulator-pro.github.io/system-requirements.html): CNC Simulator Pro system requirements: Windows 10+ 64 bit, .NET Framework 4.8+, a modern GPU, and what to do about graphics, plugin and SmartScreen errors.
+
+## Compare
+- [CNC Simulator Pro vs CAMotics: paid trainer or free open source simulator](https://cnc-simulator-pro.github.io/vs-camotics.html): CNC Simulator Pro vs CAMotics: machine types, CAD/CAM, platforms, licence and price compared, and which simulator fits a school, a hobby router or a shop.
+- [CNC Simulator Pro alternatives: six G code simulators and verifiers](https://cnc-simulator-pro.github.io/alternatives.html): Alternatives to CNC Simulator Pro for hobby routers, job shops and production: CAMotics, NC Viewer, CIMCO Edit, G-Wizard Editor, VERICUT and NCSIMUL.
+
+## Full text
+- [llms-full.txt](https://cnc-simulator-pro.github.io/llms-full.txt): every guide on this site in plain markdown

@@ -1,0 +1,14 @@
+@import url("assets/style.css");
+
+/* mobile guard: nothing wider than the phone screen */
+@media (max-width: 600px) {
+  html, body { overflow-x: clip; }
+  main a.btn, main a[class*="btn"], main button, footer a[class*="btn"], section a[class*="btn"] { max-width: 100%; white-space: normal; height: auto; text-align: center; box-sizing: border-box; }
+  table { display: block; max-width: 100%; overflow-x: auto; }
+  img, svg, video, iframe, pre { max-width: 100%; }
+  pre { overflow-x: auto; }
+  header *, nav * { min-width: 0; }
+  header a[class*="btn"], header .btn, header [class*="cta"] { margin-left: 8px !important; padding-left: 10px !important; padding-right: 10px !important; font-size: 13px !important; flex-shrink: 0; }
+  header img, header svg { flex-shrink: 1; }
+  header [class*="logo"], header [class*="brand"] { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 90%; }
+}
